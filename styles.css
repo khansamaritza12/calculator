@@ -1,0 +1,54 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: Viga;
+}
+
+body{
+    background: rgb(255, 255, 255);
+    height: 637px;
+}
+
+.main {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+    width: fixed;
+    background: rgb(137, 35, 35);
+    padding: 20px;
+    border-radius: 40px;
+    box-shadow: 0 0 15px;
+}
+
+.main h2 {
+    text-align: center;
+    color: black;
+    text-transform: uppercase;
+}
+
+.button {
+    width: 50px;
+    height: 50px;
+    margin: 2px;
+    cursor: pointer;
+    border: none;
+    background: #e6f4fa;
+    color: black;
+    border-radius: 25px;
+}
+
+.btn-green {
+    background: black;
+    color: rgb(63, 104, 104);
+}
+
+.textarea {
+    margin: 4px;
+    font-size: 20px;
+    padding: 10px;
+    border: none;
+    color: rgb(24, 45, 38);
+    border-radius: 25px;
+    text-align: right;
+}
